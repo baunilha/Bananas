@@ -600,10 +600,11 @@ color: #ddd;
 #c4-intro {
 	width: 1500px;
 	height: 700px;
-	background: #111 url(http://blog.hannakangbrown.com/images/No%20Bananas2.jpg);
+	background: #111 url(http://blog.hannakangbrown.com/images/nobananas.gif);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
+	position: relative;
 	border-right: 5px solid #000;
 	border-left: 5px solid #000;
 	

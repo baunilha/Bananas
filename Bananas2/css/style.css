@@ -469,19 +469,21 @@ color: #ddd;
 	height: 700px;
 	float: left;
 	margin: 0 0 0 0;
-	background: transparent url(http://placekitten.com/800/600);
+	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
 	padding: 100px 30px;
 	border-right: 6px solid #000;
 	
 }
 
 #c1-intro.color {
-	background: transparent url(http://placekitten.com/800/600);
+	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
 
 }
 
 #c1-intro h2 {
 	font-size: 120px;
+	padding-top: 160px;
+	margin: -10px 0 10px 0;
 	margin-bottom: 20px;
 }
 
@@ -502,7 +504,7 @@ color: #ddd;
 	width: 1110px;
 	height: 560px;
 	float: left;
-	background: transparent url(http://placekitten.com/800/600);
+	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -532,7 +534,7 @@ color: #ddd;
 	height: 700px;
 	float: left;
 	margin: 0 120px 0 0;
-	background: transparent url(http://placekitten.com/800/600);
+	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
 	padding: 100px;
 	border-left: 5px solid #000;
 	border-right: 5px solid #000;
@@ -559,7 +561,7 @@ color: #ddd;
 #c2-intro {
 	width: 1500px;
 	height: 700px;
-	background: #111 url(http://placekitten.com/800/600);
+	background: #111 url(http://www.wallpapersdesign.net/wp-content/uploads/2012/11/Green-Bananas.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;

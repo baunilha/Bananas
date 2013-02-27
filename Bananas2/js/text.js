@@ -216,7 +216,7 @@ pop.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo9a'
+			scrollTarget: '#peel'
 		});
 		return false;
 	},
@@ -232,7 +232,7 @@ pop.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo9'
+			scrollTarget: '#filter'
 		});
 		return false;
 	},
@@ -248,7 +248,7 @@ pop.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo9b'
+			scrollTarget: '#bite'
 		});
 		return false;
 	},
@@ -264,7 +264,7 @@ pop.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo10'
+			scrollTarget: '#shoes'
 		});
 		return false;
 	},
@@ -280,7 +280,7 @@ pop.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo11'
+			scrollTarget: '#ink'
 		});
 		return false;
 	},
@@ -296,7 +296,7 @@ pop.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo12'
+			scrollTarget: '#cd'
 		});
 		return false;
 	},

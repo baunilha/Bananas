@@ -56,6 +56,45 @@
 				supplied: "oga, mp3",
 				//errorAlerts:true
 			});
+
+
+			// Chapter 2 Facts Audio
+			$("#fact-audio").jPlayer({
+				ready: function () {
+					$(this).jPlayer("setMedia", {
+						mp3: "assets/audio/bananaBoatSong.mp3"
+					}).jPlayer("pause");
+				},
+				play: function() { // To avoid both jPlayers playing together.
+					$(this).jPlayer("pauseOthers");
+				},
+				ended: function (event) {
+					$(this).jPlayer("pause");
+				},
+				swfPath: "js",
+				supplied: "oga, mp3",
+				//errorAlerts:true
+			});
+
+
+			// Chapter 3 History Audio
+			$("#hist-audio").jPlayer({
+				ready: function () {
+					$(this).jPlayer("setMedia", {
+						mp3: "assets/audio/chiquita.mp3"
+					}).jPlayer("pause");
+				},
+				play: function() { // To avoid both jPlayers playing together.
+					$(this).jPlayer("pauseOthers");
+				},
+				ended: function (event) {
+					$(this).jPlayer("pause");
+				},
+				swfPath: "js",
+				supplied: "oga, mp3",
+				//errorAlerts:true
+			});
+
 			
 			$('#lm').click(function() {
 				$.smoothScroll({
@@ -84,7 +123,8 @@
 				return false;
 			});
 			
-			//chapter 1
+
+			//chapter 1 audio function
 			$('#discovery').click(function() {
 				$.smoothScroll({
 					scrollTarget: '#chapter1',
@@ -92,28 +132,47 @@
 				});
 				return false;
 			});
-			//chapter 2
-			$("#witness").click( function() {
-  				$("#pop-audio").jPlayer("play", 65);
+
+
+			//chapter 2 audio function
+			$('#witness').click(function() {
+				$.smoothScroll({
+					speed: 800,
+					scrollTarget: '#chapter2',
+					afterScroll: function() {$("#fact-audio").jPlayer("play", 0);}
+				});
+				return false;
 			});
-			//chapter 3
-			$("#obsessive").click( function() {
-  				$("#pop-audio").jPlayer("play", 117);
+
+
+			//chapter 3 audio function
+			$("#obsessive").click(function() {
+  				$.smoothScroll({
+					speed: 800,
+					scrollTarget: '#chapter3',
+					afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
+				});
+				return false;
 			});
-			//chapter 4
-			$("#mythic").click( function() {
-  				$("#pop-audio").jPlayer("play", 243);
-			});
+
 			
-			$("#learn-more").click( function() {
+			$("#learn-more").click(function() {
   				$("#pop-audio").jPlayer("pause");
+  				$("#fact-audio").jPlayer("pause");
+  				$("#hist-audio").jPlayer("pause");
 			});
+
+
 			//learn more
 			$('#learn-more').click(function() {
 				$.smoothScroll({
 					speed: 900,
 					scrollTarget: '#learn',
-					afterScroll: function() {$("#pop-audio").jPlayer("pause");}
+					afterScroll: function() {
+						$("#pop-audio").jPlayer("pause");
+						$("#fact-audio").jPlayer("pause");
+  						$("#hist-audio").jPlayer("pause");
+					}
 				});
 				return false;
 			});
@@ -772,7 +831,7 @@
 
 	<div id="audio">
 	
-		<div id="pop-audio" class="jp-jplayer"></div>
+		<div id="fact-audio" class="jp-jplayer"></div>
 		
 		<div class="jp-audio-container">
 			<div class="jp-audio">
@@ -835,7 +894,7 @@
 
 	<div id="audio">
 	
-		<div id="pop-audio" class="jp-jplayer"></div>
+		<div id="hist-audio" class="jp-jplayer"></div>
 		
 		<div class="jp-audio-container">
 			<div class="jp-audio">

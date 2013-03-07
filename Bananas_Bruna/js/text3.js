@@ -59,7 +59,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo1'
+			scrollTarget: '#3photo1'
 		});
 		return false;
 	},
@@ -75,7 +75,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo2'
+			scrollTarget: '#3photo2'
 		});
 		return false;
 	},
@@ -92,7 +92,7 @@ hist.code({
 			speed: 2500,
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo3'
+			scrollTarget: '#3photo3'
 		});
 		return false;
 	},
@@ -109,7 +109,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo4'
+			scrollTarget: '#3photo4'
 		});
 		return false;
 	},
@@ -125,7 +125,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo5'
+			scrollTarget: '#3photo5'
 		});
 		return false;
 	},
@@ -143,7 +143,7 @@ hist.code({
 			direction: 'left',
 			speed: 4500,
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo6'
+			scrollTarget: '#3photo6'
 		});
 		return false;
 	},
@@ -159,7 +159,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo7'
+			scrollTarget: '#3photo7'
 		});
 		return false;
 	},
@@ -175,7 +175,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo8'
+			scrollTarget: '#3photo8'
 		});
 		return false;
 	},
@@ -312,7 +312,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo14'
+			scrollTarget: '#3photo14'
 		});
 		return false;
 	},
@@ -328,7 +328,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo15'
+			scrollTarget: '#3photo15'
 		});
 		return false;
 	},
@@ -344,7 +344,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo17'
+			scrollTarget: '#3photo17'
 		});
 		return false;
 	},
@@ -385,7 +385,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo21'
+			scrollTarget: '#3photo21'
 		});
 		return false;
 	},
@@ -401,7 +401,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo22'
+			scrollTarget: '#3photo22'
 		});
 		return false;
 	},
@@ -417,7 +417,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo23'
+			scrollTarget: '#3photo23'
 		});
 		return false;
 	},
@@ -433,7 +433,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo24'
+			scrollTarget: '#3photo24'
 		});
 		return false;
 	},
@@ -449,7 +449,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo25'
+			scrollTarget: '#3photo25'
 		});
 		return false;
 	},
@@ -465,7 +465,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo26'
+			scrollTarget: '#3photo26'
 		});
 		return false;
 	},
@@ -481,7 +481,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo27'
+			scrollTarget: '#3photo27'
 		});
 		return false;
 	},
@@ -498,7 +498,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo29'
+			scrollTarget: '#3photo29'
 		});
 		return false;
 	},
@@ -515,7 +515,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo30'
+			scrollTarget: '#3photo30'
 		});
 		return false;
 	},
@@ -533,7 +533,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo31'
+			scrollTarget: '#3photo31'
 		});
 		return false;
 	},
@@ -549,7 +549,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo33'
+			scrollTarget: '#3photo33'
 		});
 		return false;
 	},
@@ -566,7 +566,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo34'
+			scrollTarget: '#3photo34'
 		});
 		return false;
 	},
@@ -583,7 +583,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo35'
+			scrollTarget: '#3photo35'
 		});
 		return false;
 	},
@@ -599,7 +599,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo35b'
+			scrollTarget: '#3photo35b'
 		});
 		return false;
 	},
@@ -616,7 +616,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo36'
+			scrollTarget: '#3photo36'
 		});
 		return false;
 	},
@@ -633,7 +633,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo37'
+			scrollTarget: '#3photo37'
 		});
 		return false;
 	},
@@ -650,7 +650,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo38'
+			scrollTarget: '#3photo38'
 		});
 		return false;
 	},
@@ -667,7 +667,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo39'
+			scrollTarget: '#3photo39'
 		});
 		return false;
 	},
@@ -684,7 +684,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo40'
+			scrollTarget: '#3photo40'
 		});
 		return false;
 	},
@@ -701,7 +701,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo41'
+			scrollTarget: '#3photo41'
 		});
 		return false;
 	},
@@ -718,7 +718,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo42'
+			scrollTarget: '#3photo42'
 		});
 		return false;
 	},
@@ -735,7 +735,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo43'
+			scrollTarget: '#3photo43'
 		});
 		return false;
 	},
@@ -751,7 +751,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo45'
+			scrollTarget: '#3photo45'
 		});
 		return false;
 	},
@@ -768,7 +768,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo46'
+			scrollTarget: '#3photo46'
 		});
 		return false;
 	},
@@ -785,7 +785,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo47'
+			scrollTarget: '#3photo47'
 		});
 		return false;
 	},
@@ -802,7 +802,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo48'
+			scrollTarget: '#3photo48'
 		});
 		return false;
 	},
@@ -819,7 +819,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo49'
+			scrollTarget: '#3photo49'
 		});
 		return false;
 	},
@@ -836,7 +836,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo50'
+			scrollTarget: '#3photo50'
 		});
 		return false;
 	},
@@ -877,7 +877,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo52'
+			scrollTarget: '#3photo52'
 		});
 		return false;
 	},
@@ -893,7 +893,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo53'
+			scrollTarget: '#3photo53'
 		});
 		return false;
 	},
@@ -909,7 +909,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo54'
+			scrollTarget: '#3photo54'
 		});
 		return false;
 	},
@@ -925,7 +925,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo55'
+			scrollTarget: '#3photo55'
 		});
 		return false;
 	},
@@ -941,7 +941,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo56'
+			scrollTarget: '#3photo56'
 		});
 		return false;
 	},
@@ -957,7 +957,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo57'
+			scrollTarget: '#3photo57'
 		});
 		return false;
 	},
@@ -973,7 +973,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo60'
+			scrollTarget: '#3photo60'
 		});
 		return false;
 	},
@@ -989,7 +989,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo61'
+			scrollTarget: '#3photo61'
 		});
 		return false;
 	},
@@ -1005,7 +1005,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo63'
+			scrollTarget: '#3photo63'
 		});
 		return false;
 	},
@@ -1022,7 +1022,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo64'
+			scrollTarget: '#3photo64'
 		});
 		return false;
 	},
@@ -1039,7 +1039,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo66'
+			scrollTarget: '#3photo66'
 		});
 		return false;
 	},
@@ -1056,7 +1056,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo67'
+			scrollTarget: '#3photo67'
 		});
 		return false;
 	},
@@ -1072,7 +1072,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo68'
+			scrollTarget: '#3photo68'
 		});
 		return false;
 	},
@@ -1088,7 +1088,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo69'
+			scrollTarget: '#3photo69'
 		});
 		return false;
 	},
@@ -1104,7 +1104,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo69b'
+			scrollTarget: '#3photo69b'
 		});
 		return false;
 	},
@@ -1120,7 +1120,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo70'
+			scrollTarget: '#3photo70'
 		});
 		return false;
 	},
@@ -1137,7 +1137,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo71'
+			scrollTarget: '#3photo71'
 		});
 		return false;
 	},
@@ -1154,7 +1154,7 @@ hist.code({
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter3'),
-			scrollTarget: '#photo72'
+			scrollTarget: '#3photo72'
 		});
 		return false;
 	},

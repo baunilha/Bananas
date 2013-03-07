@@ -1,27 +1,27 @@
 document.addEventListener('DOMContentLoaded',function(e){
-var pop = Popcorn( '#jp_audio_0');
+var hist = Popcorn( '#jp_audio_2');
 
 /////////////// !CHAPTER 1
 
-pop.code({
+hist.code({
 	start: .1,
 	onStart: function( options ) {         
 		$.smoothScroll({
-			scrollTarget: '#chapter1'
+			scrollTarget: '#chapter3'
 		});
 		return false;
 	}
 	
 });
 
-pop.code({
+hist.code({
 	start: 1,
 	end: 1.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#c1-intro'
+			scrollElement: $('#chapter3'),
+			scrollTarget: '#c3-intro'
 		});
 		return false;
 	},
@@ -30,7 +30,7 @@ pop.code({
 });
 
 
-pop.text({
+hist.text({
 start: .1,
 end: 64,
 text:'',
@@ -39,11 +39,11 @@ effect: 'applyclass',
 applyclass: 'active'
 });
 
-pop.text({
+hist.text({
 start: 5.5,
 end: 326,
 text:'',
-target:'c1-intro',
+target:'c3-intro',
 effect: 'applyclass',
 applyclass: 'color'
 });
@@ -52,13 +52,13 @@ applyclass: 'color'
 
 /////////////// !photo 1
 
-pop.code({
-	start: 8,
+hist.code({
+	start: 6,
 	end: 8.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo1'
 		});
 		return false;
@@ -68,13 +68,13 @@ pop.code({
 
 /////////////// !photo 2
 
-pop.code({
+hist.code({
 	start: 19,
 	end: 19.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo2'
 		});
 		return false;
@@ -84,14 +84,14 @@ pop.code({
 
 /////////////// !photo 3
 
-pop.code({
+hist.code({
 	start: 20,
 	end: 20.5,
 	onStart: function( options ) {   
 		$.smoothScroll({
 			speed: 2500,
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo3'
 		});
 		return false;
@@ -102,13 +102,13 @@ pop.code({
 
 /////////////// !photo 4
 
-pop.code({
+hist.code({
 	start: 27,
 	end: 27.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo4'
 		});
 		return false;
@@ -118,13 +118,13 @@ pop.code({
 
 /////////////// !photo 5
 
-pop.code({
+hist.code({
 	start: 33,
 	end: 33.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo5'
 		});
 		return false;
@@ -135,14 +135,14 @@ pop.code({
 
 /////////////// !photo 6
 
-pop.code({
+hist.code({
 	start: 43,
 	end: 43.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
 			speed: 4500,
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo6'
 		});
 		return false;
@@ -152,13 +152,13 @@ pop.code({
 
 /////////////// !photo 7
 
-pop.code({
+hist.code({
 	start: 55,
 	end: 55.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo7'
 		});
 		return false;
@@ -168,13 +168,13 @@ pop.code({
 
 /////////////// !photo 8
 
-pop.code({
+hist.code({
 	start: 60,
 	end: 60.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo8'
 		});
 		return false;
@@ -184,7 +184,7 @@ pop.code({
 
 /////////////// !CHAPTER 2
 
-pop.text({
+hist.text({
 start: 65.1,
 end: 116,
 text:'',
@@ -193,13 +193,13 @@ effect: 'applyclass',
 applyclass: 'active'
 });
 
-pop.code({
+hist.code({
 	start: 65,
 	end: 65.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#c2-intro'
 		});
 		return false;
@@ -209,13 +209,13 @@ pop.code({
 
 /////////////// !photo 9a
 
-pop.code({
+hist.code({
 	start: 68.5,
 	end: 70,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#peel'
 		});
 		return false;
@@ -225,13 +225,13 @@ pop.code({
 
 /////////////// !photo 9
 
-pop.code({
+hist.code({
 	start: 74,
 	end: 74.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#filter'
 		});
 		return false;
@@ -241,13 +241,13 @@ pop.code({
 
 /////////////// !photo 9b
 
-pop.code({
+hist.code({
 	start: 81,
 	end: 81.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#bite'
 		});
 		return false;
@@ -257,13 +257,13 @@ pop.code({
 
 /////////////// !photo 10
 
-pop.code({
+hist.code({
 	start: 88,
 	end: 88.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#shoes'
 		});
 		return false;
@@ -273,13 +273,13 @@ pop.code({
 
 /////////////// !photo 11
 
-pop.code({
+hist.code({
 	start: 102,
 	end: 102.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#ink'
 		});
 		return false;
@@ -289,13 +289,13 @@ pop.code({
 
 /////////////// !photo 12
 
-pop.code({
+hist.code({
 	start: 108,
 	end: 108.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#cd'
 		});
 		return false;
@@ -305,13 +305,13 @@ pop.code({
 
 /////////////// !photo 14
 
-pop.code({
+hist.code({
 	start: 111,
 	end: 111.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo14'
 		});
 		return false;
@@ -321,13 +321,13 @@ pop.code({
 
 /////////////// !photo 15
 
-pop.code({
+hist.code({
 	start: 113,
 	end: 113.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo15'
 		});
 		return false;
@@ -337,13 +337,13 @@ pop.code({
 
 /////////////// !photo 17
 
-pop.code({
+hist.code({
 	start: 115,
 	end: 115.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo17'
 		});
 		return false;
@@ -353,7 +353,7 @@ pop.code({
 
 /////////////// !CHAPTER 3
 
-pop.text({
+hist.text({
 start: 117,
 end: 243,
 text:'',
@@ -362,13 +362,13 @@ effect: 'applyclass',
 applyclass: 'active'
 });
 
-pop.code({
+hist.code({
 	start: 117,
 	end: 117.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#c3-intro'
 		});
 		return false;
@@ -378,13 +378,13 @@ pop.code({
 
 /////////////// !photo 21
 
-pop.code({
+hist.code({
 	start: 122,
 	end: 122.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo21'
 		});
 		return false;
@@ -394,13 +394,13 @@ pop.code({
 
 /////////////// !photo 22
 
-pop.code({
+hist.code({
 	start: 124,
 	end: 124.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo22'
 		});
 		return false;
@@ -410,13 +410,13 @@ pop.code({
 
 /////////////// !photo 23
 
-pop.code({
+hist.code({
 	start: 126,
 	end: 126.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo23'
 		});
 		return false;
@@ -426,13 +426,13 @@ pop.code({
 
 /////////////// !photo 24
 
-pop.code({
+hist.code({
 	start: 129,
 	end: 129.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo24'
 		});
 		return false;
@@ -442,13 +442,13 @@ pop.code({
 
 /////////////// !photo 25
 
-pop.code({
+hist.code({
 	start: 132,
 	end: 132.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo25'
 		});
 		return false;
@@ -458,13 +458,13 @@ pop.code({
 
 /////////////// !photo 26
 
-pop.code({
+hist.code({
 	start: 135,
 	end: 135.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo26'
 		});
 		return false;
@@ -474,13 +474,13 @@ pop.code({
 
 /////////////// !photo 27
 
-pop.code({
+hist.code({
 	start: 138,
 	end: 138.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo27'
 		});
 		return false;
@@ -491,13 +491,13 @@ pop.code({
 
 /////////////// !photo 29
 
-pop.code({
+hist.code({
 	start: 141,
 	end: 141.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo29'
 		});
 		return false;
@@ -508,13 +508,13 @@ pop.code({
 
 /////////////// !photo 30
 
-pop.code({
+hist.code({
 	start: 143,
 	end: 143.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo30'
 		});
 		return false;
@@ -526,13 +526,13 @@ pop.code({
 
 /////////////// !photo 31
 
-pop.code({
+hist.code({
 	start: 144,
 	end: 144.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo31'
 		});
 		return false;
@@ -542,13 +542,13 @@ pop.code({
 
 /////////////// !photo 33
 
-pop.code({
+hist.code({
 	start: 147,
 	end: 147.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo33'
 		});
 		return false;
@@ -559,13 +559,13 @@ pop.code({
 
 /////////////// !photo 34
 
-pop.code({
+hist.code({
 	start: 153,
 	end: 153.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo34'
 		});
 		return false;
@@ -576,13 +576,13 @@ pop.code({
 
 /////////////// !photo 35
 
-pop.code({
+hist.code({
 	start: 158,
 	end: 158.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo35'
 		});
 		return false;
@@ -592,13 +592,13 @@ pop.code({
 
 /////////////// !photo 35b
 
-pop.code({
+hist.code({
 	start: 166,
 	end: 166.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo35b'
 		});
 		return false;
@@ -609,13 +609,13 @@ pop.code({
 
 /////////////// !photo 36
 
-pop.code({
+hist.code({
 	start: 172,
 	end: 172.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo36'
 		});
 		return false;
@@ -626,13 +626,13 @@ pop.code({
 
 /////////////// !photo 37
 
-pop.code({
+hist.code({
 	start: 178,
 	end: 178.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo37'
 		});
 		return false;
@@ -643,13 +643,13 @@ pop.code({
 
 /////////////// !photo 38
 
-pop.code({
+hist.code({
 	start: 186,
 	end: 186.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo38'
 		});
 		return false;
@@ -660,13 +660,13 @@ pop.code({
 
 /////////////// !photo 39
 
-pop.code({
+hist.code({
 	start: 189,
 	end: 189.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo39'
 		});
 		return false;
@@ -677,13 +677,13 @@ pop.code({
 
 /////////////// !photo 40
 
-pop.code({
+hist.code({
 	start: 192,
 	end: 192.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo40'
 		});
 		return false;
@@ -694,13 +694,13 @@ pop.code({
 
 /////////////// !photo 41
 
-pop.code({
+hist.code({
 	start: 195,
 	end: 195.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo41'
 		});
 		return false;
@@ -711,13 +711,13 @@ pop.code({
 
 /////////////// !photo 42
 
-pop.code({
+hist.code({
 	start: 202,
 	end: 202.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo42'
 		});
 		return false;
@@ -728,13 +728,13 @@ pop.code({
 
 /////////////// !photo 43
 
-pop.code({
+hist.code({
 	start: 206,
 	end: 206.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo43'
 		});
 		return false;
@@ -744,13 +744,13 @@ pop.code({
 
 /////////////// !photo 45
 
-pop.code({
+hist.code({
 	start: 213,
 	end: 213.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo45'
 		});
 		return false;
@@ -761,13 +761,13 @@ pop.code({
 
 /////////////// !photo 46
 
-pop.code({
+hist.code({
 	start: 216,
 	end: 216.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo46'
 		});
 		return false;
@@ -778,13 +778,13 @@ pop.code({
 
 /////////////// !photo 47
 
-pop.code({
+hist.code({
 	start: 221,
 	end: 221.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo47'
 		});
 		return false;
@@ -795,13 +795,13 @@ pop.code({
 
 /////////////// !photo 48
 
-pop.code({
+hist.code({
 	start: 225,
 	end: 225.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo48'
 		});
 		return false;
@@ -812,13 +812,13 @@ pop.code({
 
 /////////////// !photo 49
 
-pop.code({
+hist.code({
 	start: 229,
 	end: 229.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo49'
 		});
 		return false;
@@ -829,13 +829,13 @@ pop.code({
 
 /////////////// !photo 50
 
-pop.code({
+hist.code({
 	start: 235,
 	end: 235.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo50'
 		});
 		return false;
@@ -845,7 +845,7 @@ pop.code({
 
 /////////////// !CHAPTER 4
 
-pop.text({
+hist.text({
 start: 243.1,
 end: 335,
 text:'',
@@ -854,13 +854,13 @@ effect: 'applyclass',
 applyclass: 'active'
 });
 
-pop.code({
+hist.code({
 	start: 243,
 	end: 243.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#c4-intro'
 		});
 		return false;
@@ -870,13 +870,13 @@ pop.code({
 
 /////////////// !photo 52
 
-pop.code({
+hist.code({
 	start: 248,
 	end: 248.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo52'
 		});
 		return false;
@@ -886,13 +886,13 @@ pop.code({
 
 /////////////// !photo 53
 
-pop.code({
+hist.code({
 	start: 254,
 	end: 254.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo53'
 		});
 		return false;
@@ -902,13 +902,13 @@ pop.code({
 
 /////////////// !photo 54
 
-pop.code({
+hist.code({
 	start: 259,
 	end: 259.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo54'
 		});
 		return false;
@@ -918,13 +918,13 @@ pop.code({
 
 /////////////// !photo 55
 
-pop.code({
+hist.code({
 	start: 265,
 	end: 265.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo55'
 		});
 		return false;
@@ -934,13 +934,13 @@ pop.code({
 
 /////////////// !photo 56
 
-pop.code({
+hist.code({
 	start: 269,
 	end: 269.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo56'
 		});
 		return false;
@@ -950,13 +950,13 @@ pop.code({
 
 /////////////// !photo 57
 
-pop.code({
+hist.code({
 	start: 274,
 	end: 274.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo57'
 		});
 		return false;
@@ -966,13 +966,13 @@ pop.code({
 
 /////////////// !photo 60
 
-pop.code({
+hist.code({
 	start: 281,
 	end: 281.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo60'
 		});
 		return false;
@@ -982,13 +982,13 @@ pop.code({
 
 /////////////// !photo 61
 
-pop.code({
+hist.code({
 	start: 285,
 	end: 285.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo61'
 		});
 		return false;
@@ -998,13 +998,13 @@ pop.code({
 
 /////////////// !photo 63
 
-pop.code({
+hist.code({
 	start: 294,
 	end: 294.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo63'
 		});
 		return false;
@@ -1015,13 +1015,13 @@ pop.code({
 
 /////////////// !photo 64
 
-pop.code({
+hist.code({
 	start: 299,
 	end: 299.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo64'
 		});
 		return false;
@@ -1032,13 +1032,13 @@ pop.code({
 
 /////////////// !photo 66
 
-pop.code({
+hist.code({
 	start: 309,
 	end: 309.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo66'
 		});
 		return false;
@@ -1049,13 +1049,13 @@ pop.code({
 
 /////////////// !photo 67
 
-pop.code({
+hist.code({
 	start: 313,
 	end: 313.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo67'
 		});
 		return false;
@@ -1065,13 +1065,13 @@ pop.code({
 
 /////////////// !photo 68
 
-pop.code({
+hist.code({
 	start: 317,
 	end: 317.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo68'
 		});
 		return false;
@@ -1081,13 +1081,13 @@ pop.code({
 
 /////////////// !photo 69
 
-pop.code({
+hist.code({
 	start: 321,
 	end: 321.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo69'
 		});
 		return false;
@@ -1097,13 +1097,13 @@ pop.code({
 
 /////////////// !photo 69b
 
-pop.code({
+hist.code({
 	start: 326,
 	end: 326.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo69b'
 		});
 		return false;
@@ -1113,13 +1113,13 @@ pop.code({
 
 /////////////// !photo 70
 
-pop.code({
+hist.code({
 	start: 330,
 	end: 330.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo70'
 		});
 		return false;
@@ -1130,13 +1130,13 @@ pop.code({
 
 /////////////// !photo 71
 
-pop.code({
+hist.code({
 	start: 332,
 	end: 332.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo71'
 		});
 		return false;
@@ -1147,13 +1147,13 @@ pop.code({
 
 /////////////// !photo 72
 
-pop.code({
+hist.code({
 	start: 333,
 	end: 333.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#photo72'
 		});
 		return false;
@@ -1161,13 +1161,13 @@ pop.code({
 	onEnd: function( options ) {}
 });
 
-pop.code({
+hist.code({
 	start: 335,
 	end: 335.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
+			scrollElement: $('#chapter3'),
 			scrollTarget: '#c5-intro'
 		});
 		return false;

@@ -32,7 +32,7 @@ fac.code({
 
 fac.text({
 start: .1,
-end: 64,
+end: 161,
 text:'',
 target:'wit',
 effect: 'applyclass',
@@ -49,27 +49,10 @@ applyclass: 'color'
 });
 
 
-
-/////////////// !photo 1
+/////////////// ! filter
 
 fac.code({
 	start: 2,
-	end: 2.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter2'),
-			scrollTarget: '#peel'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 9
-
-fac.code({
-	start: 9,
 	end: 9.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
@@ -82,11 +65,11 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 9b
+/////////////// ! insect bite
 
 fac.code({
 	start: 10,
-	end: 10.5,
+	end: 16,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
@@ -98,11 +81,11 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 10
+/////////////// ! shoes
 
 fac.code({
-	start: 11,
-	end: 11.5,
+	start: 16.5,
+	end: 20.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
@@ -114,11 +97,11 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 11
+/////////////// ! ink
 
 fac.code({
-	start: 12,
-	end: 12.5,
+	start: 21,
+	end: 22.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
@@ -130,11 +113,11 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 12
+/////////////// ! remove scratches
 
 fac.code({
-	start: 13,
-	end: 13.5,
+	start: 23,
+	end: 24.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
@@ -146,11 +129,11 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 14
+/////////////// ! bikini girl
 
 fac.code({
-	start: 14,
-	end: 14.5,
+	start: 25,
+	end: 27.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
@@ -162,338 +145,321 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 15
+/////////////// ! sad boy
 
 fac.code({
-	start: 15,
-	end: 15.5,
+	start: 29,
+	end: 30.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter2'),
-			scrollTarget: '#photo15'
+			scrollTarget: '#sadboy'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 17
+/////////////// ! boy without head
 
 fac.code({
-	start: 16,
-	end: 16.5,
+	start: 31,
+	end: 32.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
 			scrollElement: $('#chapter2'),
-			scrollTarget: '#photo17'
+			scrollTarget: '#guyWithoutHead'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !CHAPTER 3
 
-fac.text({
-start: 117,
-end: 243,
-text:'',
-target:'ob',
-effect: 'applyclass',
-applyclass: 'active'
-});
+/////////////// ! boy without head
 
 fac.code({
-	start: 117,
-	end: 117.5,
+	start: 31,
+	end: 32.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#c3-intro'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#guyWithoutHead'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 21
+/////////////// ! monkey
 
 fac.code({
-	start: 122,
-	end: 122.5,
+	start: 33,
+	end: 36.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo21'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#monkey'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 22
+/////////////// ! russian teachs
 
 fac.code({
-	start: 124,
-	end: 124.5,
+	start: 37,
+	end: 40.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo22'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#russian'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 23
+/////////////// ! stop motion bananas
 
 fac.code({
-	start: 126,
-	end: 126.5,
+	start: 41,
+	end: 55,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo23'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#stopmotion'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 24
+/////////////// ! taste better
 
 fac.code({
-	start: 129,
-	end: 129.5,
+	start: 55.5,
+	end: 60,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo24'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#tasty'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 25
+/////////////// ! feeling great daddy
 
 fac.code({
-	start: 132,
-	end: 132.5,
+	start: 60.5,
+	end: 65,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo25'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#daddy'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
-});      
+});
 
-/////////////// !photo 26
+/////////////// ! feeling great gang
 
 fac.code({
-	start: 135,
-	end: 135.5,
+	start: 65.5,
+	end: 70,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo26'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#gang'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 27
+/////////////// ! feeling great costume
 
 fac.code({
-	start: 138,
-	end: 138.5,
+	start: 70.5,
+	end: 75,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo27'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#costume'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 29
+/////////////// ! feeling great moon
 
 fac.code({
-	start: 141,
-	end: 141.5,
+	start: 75.5,
+	end: 80,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo29'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#moon'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 30
+/////////////// ! feeling great field
 
 fac.code({
-	start: 143,
-	end: 143.5,
+	start: 80.5,
+	end: 85,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo30'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#field'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-
-/////////////// !photo 31
+/////////////// ! feeling great child
 
 fac.code({
-	start: 144,
-	end: 144.5,
+	start: 85.5,
+	end: 90,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo31'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#child'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 33
+/////////////// ! feeling sad window
 
 fac.code({
-	start: 147,
-	end: 147.5,
+	start: 90.5,
+	end: 95,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo33'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#sadbanana'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 34
+/////////////// ! drunkie friends
 
 fac.code({
-	start: 153,
-	end: 153.5,
+	start: 95.5,
+	end: 97.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo34'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#drunkies'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 35
+/////////////// ! banana drunk
 
 fac.code({
-	start: 158,
-	end: 158.5,
+	start: 98,
+	end: 100.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo35'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#bananadrunk'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 35b
+/////////////// ! radioactive potassio
 
 fac.code({
-	start: 166,
-	end: 166.5,
+	start: 101,
+	end: 104.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo35b'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#radioactive'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 36
+/////////////// ! hangover
 
 fac.code({
-	start: 172,
-	end: 172.5,
+	start: 105,
+	end: 111,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo36'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#hangover'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 37
+/////////////// ! don't forget
 
 fac.code({
-	start: 178,
-	end: 178.5,
+	start: 111.5,
+	end: 113,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo37'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#dontforget'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 38
+/////////////// ! ship of bananas
 
 fac.code({
-	start: 186,
-	end: 186.5,
+	start: 113.5,
+	end: 115,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo38'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#ship'
 		});
 		return false;
 	},
@@ -501,522 +467,169 @@ fac.code({
 });
 
 
-/////////////// !photo 39
+/////////////// ! sailor's superstition
 
 fac.code({
-	start: 189,
-	end: 189.5,
+	start: 115.5,
+	end: 119,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo39'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#flying'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 40
+/////////////// ! banana boat sunscreen
 
 fac.code({
-	start: 192,
-	end: 192.5,
+	start: 119.5,
+	end: 121,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo40'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#boat'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 41
+/////////////// ! banana republic
 
 fac.code({
-	start: 195,
-	end: 195.5,
+	start: 121.5,
+	end: 123,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo41'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#republic'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 42
+/////////////// ! no bananas sign
 
 fac.code({
-	start: 202,
-	end: 202.5,
+	start: 123.5,
+	end: 125,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo42'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#nobananas'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 43
+/////////////// ! falling people 1
 
 fac.code({
-	start: 206,
-	end: 206.5,
+	start: 125.5,
+	end: 128,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo43'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#fallboat'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-/////////////// !photo 45
+/////////////// ! falling people 2
 
 fac.code({
-	start: 213,
-	end: 213.5,
+	start: 128.5,
+	end: 130,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo45'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#fallpeople'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 46
+/////////////// ! boat falls
 
 fac.code({
-	start: 216,
-	end: 216.5,
+	start: 130.5,
+	end: 133.5,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo46'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#boatfalls'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 47
+/////////////// ! old boat
 
 fac.code({
-	start: 221,
-	end: 221.5,
+	start: 134,
+	end: 142,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo47'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#oldboat'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 48
+/////////////// ! deteriorate
 
 fac.code({
-	start: 225,
-	end: 225.5,
+	start: 142.5,
+	end: 150,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo48'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#song'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 49
+/////////////// ! deteriorate
 
 fac.code({
-	start: 229,
-	end: 229.5,
+	start: 150.5,
+	end: 154,
 	onStart: function( options ) {         
 		$.smoothScroll({
 			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo49'
+			scrollElement: $('#chapter2'),
+			scrollTarget: '#bananaboatfall'
 		});
 		return false;
 	},
 	onEnd: function( options ) {}
 });
 
-
-/////////////// !photo 50
-
-fac.code({
-	start: 235,
-	end: 235.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo50'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !CHAPTER 4
-
-fac.text({
-start: 243.1,
-end: 335,
-text:'',
-target:'myth',
-effect: 'applyclass',
-applyclass: 'active'
-});
-
-fac.code({
-	start: 243,
-	end: 243.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#c4-intro'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 52
-
-fac.code({
-	start: 248,
-	end: 248.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo52'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 53
-
-fac.code({
-	start: 254,
-	end: 254.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo53'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 54
-
-fac.code({
-	start: 259,
-	end: 259.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo54'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 55
-
-fac.code({
-	start: 265,
-	end: 265.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo55'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 56
-
-fac.code({
-	start: 269,
-	end: 269.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo56'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 57
-
-fac.code({
-	start: 274,
-	end: 274.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo57'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 60
-
-fac.code({
-	start: 281,
-	end: 281.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo60'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 61
-
-fac.code({
-	start: 285,
-	end: 285.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo61'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 63
-
-fac.code({
-	start: 294,
-	end: 294.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo63'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-
-/////////////// !photo 64
-
-fac.code({
-	start: 299,
-	end: 299.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo64'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-
-/////////////// !photo 66
-
-fac.code({
-	start: 309,
-	end: 309.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo66'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-
-/////////////// !photo 67
-
-fac.code({
-	start: 313,
-	end: 313.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo67'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 68
-
-fac.code({
-	start: 317,
-	end: 317.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo68'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 69
-
-fac.code({
-	start: 321,
-	end: 321.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo69'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 69b
-
-fac.code({
-	start: 326,
-	end: 326.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo69b'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-/////////////// !photo 70
-
-fac.code({
-	start: 330,
-	end: 330.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo70'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-
-/////////////// !photo 71
-
-fac.code({
-	start: 332,
-	end: 332.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo71'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-
-/////////////// !photo 72
-
-fac.code({
-	start: 333,
-	end: 333.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#photo72'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-fac.code({
-	start: 335,
-	end: 335.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter1'),
-			scrollTarget: '#c5-intro'
-		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
 /////////////// end     
 },false);
+
+
+
 

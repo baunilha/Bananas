@@ -407,7 +407,7 @@ background: #111 url(http://www.wallpapersdesign.net/wp-content/uploads/2012/11/
 	background-size:cover;
 position: relative;
 height: 800px;
-color: #ddd;
+color: rgb(223, 165, 165);
 
 }
 
@@ -469,14 +469,14 @@ color: #ddd;
 	height: 700px;
 	float: left;
 	margin: 0 0 0 0;
-	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
+	background: transparent url(http://2.bp.blogspot.com/-TtutzmPBWxc/Th9WZF4FwRI/AAAAAAAACmk/RtfvL0u_nHI/s1600/andy-10warhol.jpg);
 	padding: 100px 30px;
 	border-right: 6px solid #000;
 	
 }
 
 #c1-intro.color {
-	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
+	background: transparent url(http://2.bp.blogspot.com/-TtutzmPBWxc/Th9WZF4FwRI/AAAAAAAACmk/RtfvL0u_nHI/s1600/andy-10warhol.jpg);
 
 }
 
@@ -501,10 +501,10 @@ color: #ddd;
 /**** remsberg ****/
 
 #photo1 {
-	width: 1110px;
-	height: 560px;
+	width: 1500px;
+	height: 700px;
 	float: left;
-	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
+	background: transparent url(http://2.bp.blogspot.com/-TtutzmPBWxc/Th9WZF4FwRI/AAAAAAAACmk/RtfvL0u_nHI/s1600/andy-10warhol.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -514,7 +514,8 @@ color: #ddd;
 
 #photo1 h2 {
 	font-size: 110px;
-}
+	font-color: #fff;
+	}
 
 #photo1 .credit {
 	font-family: helvetica, arial, sans-serif;
@@ -535,7 +536,7 @@ color: #ddd;
 	float: left;
 	margin: 0 120px 0 0;
 	background: transparent url(http://thewordwebzine.webs.com/velvetandnico.jpg);
-	padding: 100px;
+	padding: 50px;
 	border-left: 5px solid #000;
 	border-right: 5px solid #000;
 }

@@ -411,6 +411,17 @@ color: rgb(223, 165, 165);
 
 }
 
+#chapter3 {
+background: #111 url(http://www.wallpapersdesign.net/wp-content/uploads/2012/11/Green-Bananas.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+position: relative;
+height: 800px;
+color: #A63CD4;
+
+}
+
 /* panel */
 
 .panel {

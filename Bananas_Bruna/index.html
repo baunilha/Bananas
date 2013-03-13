@@ -62,7 +62,7 @@
 			$("#fact-audio").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						mp3: "assets/audio/bananaBoatSong.mp3"
+						mp3: "assets/audio/audio_bruna.mp3"
 					}).jPlayer("pause");
 				},
 				play: function() { // To avoid both jPlayers playing together.
@@ -379,10 +379,6 @@
 	<div id="c2-intro">
 	<h2>What you didn't know about Bananas</h2>
 	</div>
-
-	<div id="peel" class="card">
-			<img src="assets/02facts/01bananaPeel.jpg" alt="banana peel" class="scale-with-grid">
-		</div> <!-- /.card -->
 	
 		<div id="filter" class="card">
 			<img src="assets/02facts/02waterFilter.jpg" alt="banana filters water" class="scale-with-grid">
@@ -433,6 +429,14 @@
 			<video width="600" height="400" preload="auto" autobuffer controls>
   				<source src="assets/02facts/07bBoyBanana.mp4" type="video/mp4">
   				<source src="assets/02facts/07aBananaGirl.webm" type="video/webm">
+				Your browser does not support the video tag.
+			</video>
+		</div> <!-- /.card -->
+
+		<div id="guyWithoutHead" class="card">
+			<video width="600" height="400" preload="auto" autobuffer controls>
+  				<source src="assets/02facts/07cGuyWithoutHead.mp4" type="video/mp4">
+  				<source src="assets/02facts/07cGuyWithoutHead.webm" type="video/webm">
 				Your browser does not support the video tag.
 			</video>
 		</div> <!-- /.card -->

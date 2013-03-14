@@ -1,22 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="fill_resize.js" type="text/javascript"></script>
+
 <head>
+	<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+</style>
 </head>
 
 <body>
 
-	<script>
-var autoPlayVideo = document.getElementById("bite2");
-
-function test() {
-	autoPlayVideo.play();
-};
-	
-</script>
-
 <div id="bite">
-<video id="bite2" width="600" height="400" preload="auto" loop>
+<video id="bite2" class="fill" width="600" height="400" preload="auto" loop>
 <source src="../assets/02facts/03insectBite.mp4" type="video/mp4">
 <source src="../assets/02facts/03insectBite.webm" type="video/webm">
 	Your browser does not support the video tag.
@@ -24,6 +24,13 @@ function test() {
 </div> 
 
 <script>
+
+var autoPlayVideo = document.getElementById("bite2");
+
+function test() {
+	autoPlayVideo.play();
+};
+
 
 test(); 
 

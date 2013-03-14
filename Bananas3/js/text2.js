@@ -1,5 +1,18 @@
+function videoChange(id) {
+	var pauseAll = document.getElementsByTagName('video');
+	for(var i = 0; i < pauseAll.length; i++){
+	   pauseAll[i].pause();
+	}
+
+	var videoNew = document.getElementById(id);
+	videoNew.play();
+	videoNew.loop=true;
+	videoNew.muted=true;
+};
+
 document.addEventListener('DOMContentLoaded',function(e){
 var fac = Popcorn( '#jp_audio_1');
+
 
 /////////////// !CHAPTER 1
 
@@ -76,6 +89,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#bite'
 		});
+		videoChange('bite2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -92,6 +106,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#shoes'
 		});
+		videoChange('shoes2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -108,6 +123,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#ink'
 		});
+		videoChange('ink2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -124,6 +140,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#cd'
 		});
+		videoChange('cd2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -140,6 +157,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#bikini'
 		});
+		videoChange('bikini2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -156,6 +174,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#sadboy'
 		});
+		videoChange('sadboy2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -172,23 +191,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#guyWithoutHead'
 		});
-		return false;
-	},
-	onEnd: function( options ) {}
-});
-
-
-/////////////// ! boy without head
-
-fac.code({
-	start: 31,
-	end: 32.5,
-	onStart: function( options ) {         
-		$.smoothScroll({
-			direction: 'left',
-			scrollElement: $('#chapter2'),
-			scrollTarget: '#guyWithoutHead'
-		});
+		videoChange('guyWithoutHead2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -205,6 +208,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#monkey'
 		});
+		videoChange('monkey2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -221,6 +225,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#russian'
 		});
+		videoChange('russian2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -237,6 +242,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#stopmotion'
 		});
+		videoChange('stopmotion2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -269,6 +275,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#daddy'
 		});
+		videoChange('daddy2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -286,6 +293,7 @@ fac.code({
 			scrollTarget: '#gang'
 		});
 		return false;
+		videoChange('gang2');
 	},
 	onEnd: function( options ) {}
 });
@@ -301,6 +309,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#costume'
 		});
+		videoChange('costume2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -317,6 +326,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#moon'
 		});
+		videoChange('moon2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -333,6 +343,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#field'
 		});
+		videoChange('field2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -349,6 +360,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#child'
 		});
+		videoChange('child2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -429,6 +441,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#hangover'
 		});
+		videoChange('hangover2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -542,6 +555,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#fallboat'
 		});
+		videoChange('fallboat2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -558,6 +572,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#fallpeople'
 		});
+		videoChange('fallpeople2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -574,6 +589,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#boatfalls'
 		});
+		videoChange('boatfalls2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -606,6 +622,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#song'
 		});
+		videoChange('song2');
 		return false;
 	},
 	onEnd: function( options ) {}
@@ -622,6 +639,7 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#bananaboatfall'
 		});
+		videoChange('bananaboatfall2');
 		return false;
 	},
 	onEnd: function( options ) {}

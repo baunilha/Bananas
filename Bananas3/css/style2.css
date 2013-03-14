@@ -65,7 +65,11 @@ color: #ddd;
 /*** Chapter 3 ***/
 
 #chapter3 {
+<<<<<<< HEAD
 background: #111 url(http://blog.hannakangbrown.com/images/waikikiPlantation.jpg);
+=======
+background: #111 url(http://www.publicdomainpictures.net/pictures/10000/velka/1-1254836844J2B3.jpg);
+>>>>>>> e0e7629cee31b355cb06de576a42786e42d151a8
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;

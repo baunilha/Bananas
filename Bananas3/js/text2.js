@@ -75,7 +75,11 @@ fac.code({
 			direction: 'left',
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#bite'
-		});
+		})
+
+		var videoNew = document.getElementById("bite2");
+		videoNew.play();
+
 		return false;
 	},
 	onEnd: function( options ) {}

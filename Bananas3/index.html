@@ -7,6 +7,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+	
+	<meta name="description" content="Once upon a time there was a banana named Cavendish. His doom was upon him, unless...">
+
+
 	<meta name="viewport" content="width=device-width,initial-scale=1">  
 
 	<link rel="icon" type="image/ico" href= "http://blog.hannakangbrown.com/images/favicon.ico" />
@@ -36,8 +40,8 @@
 			$("#pop-audio").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						mp3: "BananasinPajamas.mp3",
-						oga: "BananasinPajamas.ogg"
+						mp3: "BananasinPajamas1.mp3",
+						oga: "BananasinPajamas1.ogg"
 					}).jPlayer("pause");
 				},
 				play: function() { // To avoid both jPlayers playing together.
@@ -56,8 +60,7 @@
 			$("#fact-audio").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						mp3: "assets/audio/audio_bruna.mp3",
-						oga: "assets/audio/audio_bruna.ogg"
+						mp3: "assets/audio/audio_bruna.mp3"
 					}).jPlayer("pause");
 				},
 				play: function() { // To avoid both jPlayers playing together.
@@ -67,7 +70,7 @@
 					$(this).jPlayer("pause");
 				},
 				swfPath: "js",
-				supplied: "oga, mp3",
+				supplied: "mp3",
 				//errorAlerts:true
 			});
 
@@ -76,8 +79,7 @@
 			$("#hist-audio").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						mp3: "assets/audio/Bananas3.mp3",
-						oga: "assets/audio/Bananas3.ogg"
+						mp3: "assets/audio/Bananas2.mp3"
 					}).jPlayer("pause");
 				},
 				play: function() { // To avoid both jPlayers playing together.
@@ -87,9 +89,14 @@
 					$(this).jPlayer("pause");
 				},
 				swfPath: "js",
+<<<<<<< HEAD
+				supplied: "mp3",
+				//errorAlerts:true
+=======
 				supplied: "oga, mp3",
 
 
+>>>>>>> 964c25ddd35b91c8d6131918f9f604e1ee746005
 			});
 
 			
@@ -134,11 +141,6 @@
 					scrollTarget: '#chapter2',
 					afterScroll: function() {$('#fact-audio').jPlayer("play", 0);}
 				});
-				var pauseAll = document.getElementsByTagName('video');
-				for(var i = 0; i < pauseAll.length; i++){
-				   pauseAll[i].pause();
-				   pauseAll[i].load();
-				};
 				return false;
 			});
 
@@ -148,11 +150,6 @@
 					scrollTarget: '#chapter3',
 					afterScroll: function() {$('#hist-audio').jPlayer("play", 0);}
 				});
-				var pauseAll = document.getElementsByTagName('video');
-				for(var i = 0; i < pauseAll.length; i++){
-				   pauseAll[i].pause();
-				   pauseAll[i].load();
-				};
 				return false;
 			});
 
@@ -168,12 +165,19 @@
 			});
 
 			$('#facts2').click(function() {
+<<<<<<< HEAD
+				$.smoothScroll({
+					scrollTarget: '#chapter2',
+					afterScroll: function() {$("#fact-audio").jPlayer("play", 0);}
+				});
+=======
 				$('#fact-audio').jPlayer("play", 0);
 				var pauseAll = document.getElementsByTagName('video');
 				for(var i = 0; i < pauseAll.length; i++){
 				   pauseAll[i].pause();
 				   pauseAll[i].load();
 				};
+>>>>>>> 72e3f0372416fa8be7c194e2432077e1d68b5562
 				return false;
 			});
 
@@ -183,11 +187,6 @@
 					scrollTarget: '#chapter3',
 					afterScroll: function() {$('#hist-audio').jPlayer("play", 0);}
 				});
-				var pauseAll = document.getElementsByTagName('video');
-				for(var i = 0; i < pauseAll.length; i++){
-				   pauseAll[i].pause();
-				   pauseAll[i].load();
-				};
 				return false;
 			});
 
@@ -209,14 +208,16 @@
 					scrollTarget: '#chapter2',
 					afterScroll: function() {$('#fact-audio').jPlayer("play", 0);}
 				});
-				var pauseAll = document.getElementsByTagName('video');
-				for(var i = 0; i < pauseAll.length; i++){
-				   pauseAll[i].pause();
-				   pauseAll[i].load();
-				};
 				return false;
 			});
 
+<<<<<<< HEAD
+			$("#hist").click(function() {
+  				$.smoothScroll({
+					scrollTarget: '#chapter3',
+					afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
+				});
+=======
 			$('#hist3').click(function() {
   				$('#hist-audio').jPlayer("play", 0);
 				var pauseAll = document.getElementsByTagName('video');
@@ -224,6 +225,7 @@
 				   pauseAll[i].pause();
 				   pauseAll[i].load();
 				};
+>>>>>>> 72e3f0372416fa8be7c194e2432077e1d68b5562
 				return false;
 			});
 
@@ -264,6 +266,18 @@
 </head>
 <body id="top">
 
+<div id="global-header" class="clearfix">
+		
+			<!-- <nav id="main-nav"> -->
+				<!-- <ul> -->
+					<!-- <li id="home"><a href="http://www.npr.org/"><img src="img/npr.jpg" alt="npr" width="55" height="18" /></a></li> -->
+					<!-- <li><a href="http://www.npr.org/sections/news/">news</a></li> -->
+					<!-- <li><a href="http://www.npr.org/sections/arts/">arts &amp; life</a></li> -->
+					<!-- <li><a href="http://www.npr.org/music/">music</a></li> -->
+				<!-- </ul> -->
+			<!-- </nav> /main-nav -->
+		
+</div> <!-- global-header -->
 
 <!-- ========================================= TITLE =================================== -->
 <div  id="titlecard">
@@ -300,9 +314,11 @@
 	<div id="intro-inner">
 	
 		<div id="intro-text">
+
 		<h2>Yes, we are bananas...</h2>
 	
-		<h4>about bananas!  This documentary celebrates bananas in pop culture, fun facts, and the history of cultivation and current demise. We hope you find it informative and introduce you to a new world of banana facts and appreciation.  Goodbye and thanks for all the bananas! Bruna, Hanna and Zena.</h4> 
+		<h4>about bananas!  This documentary celebrates bananas in pop culture, fun facts, and the history of cultivation and current demise. We hope you find it informative and introduce you to a new world of banana facts and appreciation.  Goodbye and thanks for all the bananas! <a href="http://www.asdebaunilha.com.br/">Bruna</a>, <a href="http://hannakangbrown.com">Hanna</a>, and <a href="http://www.zenakoo.com">Zena</a>.</h4> 
+
 		
 		<h6><a id="second_player" href="#">Play &#9656;</a></h6>
 		</div><!--/intro-text-->
@@ -322,11 +338,11 @@
 				
 					<div id="jp_interface_1" class="jp-interface">
 						<ul class="jp-controls">
-							<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-							<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+							<li><a href="#" class="jp-play" tabindex="1">play</a></li>
+							<li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
 							
-							<li><a href="javascript:;" class="jp-mute" tabindex="1">mute</a></li>
-							<li><a href="javascript:;" class="jp-unmute" tabindex="1">unmute</a></li>
+							<li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
+							<li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li>
 							
 						</ul>
 						<div class="jp-progress-container">
@@ -350,7 +366,7 @@
 	
 	<ul id="chapter-nav">
 		<li><div id="disco"><a id="popculture1" href="#c1">POP-CULTURE</a></div></li>
-		<li><div id="wit"><a id="facts1" href="#c2">FUN FACTS!</a></div></li>
+		<li><div id="wit"><a id="facts1" href="#c2">FACTS!</a></div></li>
 		<li><div id="ob"><a id="hist1" href="#c3">NO BANANAS?</a></div></li>
 <!-- 		<li><div id="myth"><a id="mythic" href="#c4"></a></div></li>
  -->	</ul>
@@ -367,12 +383,14 @@
 	<h2>Pop-Culture</h2>
 	</div> 
 			<div id="photo1" class="card">
-				<video id="videozena" width="900" height="600" preload="auto" autobuffer>
-				<source src="assets/01pop_culture/BananasPopCulture1.mp4" type="video/mp4">
-				<source src="assets/01pop_culture/BananasPopCulture1.webm" type="video/webm">
+				<video width="900" height="600" preload="auto" autobuffer controls>
+				<source src="assets/01pop_culture/BananasPopCulture2.mp4" type="video/mp4">
+				<source src="assets/01pop_culture/BananasPopCulture2.webm" type="video/webm">
 				Your browser does not support the video tag.
 				</video>
 			</div>
+
+
 	</div> <!-- /.card -->	
 			
 	</div><!-- /panel-inner -->
@@ -397,11 +415,11 @@
 				
 					<div id="jp_interface_1" class="jp-interface">
 						<ul class="jp-controls">
-							<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-							<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+							<li><a href="#" class="jp-play" tabindex="1">play</a></li>
+							<li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
 							
-							<li><a href="javascript:;" class="jp-mute" tabindex="1">mute</a></li>
-							<li><a href="javascript:;" class="jp-unmute" tabindex="1">unmute</a></li>
+							<li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
+							<li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li>
 							
 						</ul>
 						<div class="jp-progress-container">
@@ -425,7 +443,7 @@
 	
 	<ul id="chapter-nav">
 		<li><div id="disco"><a id="popculture2" href="#c1">POP-CULTURE</a></div></li>
-		<li><div id="wit"><a id="facts2" href="#c2">FUN FACTS!</a></div></li>
+		<li><div id="wit"><a id="facts2" href="#c2">FACTS!</a></div></li>
 		<li><div id="ob"><a id="hist2" href="#c3">NO BANANAS?</a></div></li>
 	</ul>
 
@@ -437,7 +455,6 @@
 	
 	<div id="c2-intro">
 	<h2>Fun Facts</h2>
-	<h4>About Bananas!</h4>
 	</div>
 	
 		<div id="filter" class="card2">
@@ -690,11 +707,11 @@
 				
 					<div id="jp_interface_1" class="jp-interface">
 						<ul class="jp-controls">
-							<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-							<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+							<li><a href="#" class="jp-play" tabindex="1">play</a></li>
+							<li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
 							
-							<li><a href="javascript:;" class="jp-mute" tabindex="1">mute</a></li>
-							<li><a href="javascript:;" class="jp-unmute" tabindex="1">unmute</a></li>
+							<li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
+							<li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li>
 							
 						</ul>
 						<div class="jp-progress-container">
@@ -718,7 +735,7 @@
 	
 	<ul id="chapter-nav">
 		<li><div id="disco"><a id="popculture3" href="#c1">POP-CULTURE</a></div></li>
-		<li><div id="wit"><a id="facts3" href="#c2">FUN FACTS!</a></div></li>
+		<li><div id="wit"><a id="facts3" href="#c2">FACTS!</a></div></li>
 		<li><div id="ob"><a id="hist3" href="#c3">NO BANANAS?</a></div></li>
 	</ul>
 
@@ -731,8 +748,20 @@
 		<div id="c3-intro" >
 			<h2>The Banana</h2>
 			<h4>AS WE KNOW IT</h4>
+<<<<<<< HEAD
+		</div> <!-- /.card -->
+
+		<div id="3photo1" class="card">
+		<video width="600" height="400" preload="auto" autobuffer controls>
+  			<source src="assets/03history/AboutBan_prelinger.mp4" type="video/mp4">
+  			<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+			</div> <!-- /.card -->
+=======
 <!-- 			<h4>Is this Goodbye?</h4>
  -->		</div> <!-- /.card -->
+>>>>>>> 964c25ddd35b91c8d6131918f9f604e1ee746005
 
 		
 
@@ -815,6 +844,16 @@
 		</video>
 			</div> <!-- /.card -->
 
+		<!-- <div id="photo55" class="card">
+			<img src="http://placekitten.com/g/600/403" alt="kitten" class="scale-with-grid">
+			<p class="photo-info"><a href="http://flickr.com/photos/paulesson/">by pontman</a></p>
+		</div> <!-- /.card -->
+
+		<!-- <div id="photo56" class="card">
+			<img src="http://placekitten.com/g/600/403" alt="kitten" class="scale-with-grid">
+			<p class="photo-info"><a href="http://flickr.com/photos/paulesson/">by pontman</a></p>
+		</div>  --><!-- /.card --> -->
+
 		
 
 		
@@ -873,7 +912,7 @@
 		
 		<div id="about-project">
 		<h3>About the project</h3>
-			<p><i>That's Bananas!</i> is a collaboration between Bruna Calheiros, <a href="http://hannakangbrown.com">Hanna Kang-Brown</a>, and Zena Koo, graduate students of NYU's ITP program. This project was developed for the class <a href="http://www.connecteddocumentary.org">Connected Documentary</a>. </p>
+			<p><i>That's Bananas!</i> is a collaboration between <a href="http://www.asdebaunilha.com.br/">Bruna Calheiros</a>, <a href="http://hannakangbrown.com">Hanna Kang-Brown</a>, and <a href="http://zenakoo.com">Zena Koo</a>, graduate students of NYU's ITP program. This project was developed for the class <a href="http://www.connecteddocumentary.org">Connected Documentary</a>. </p>
 
 		
 		</div>

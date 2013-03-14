@@ -292,8 +292,8 @@ fac.code({
 			scrollElement: $('#chapter2'),
 			scrollTarget: '#gang'
 		});
-		return false;
 		videoChange('gang2');
+		return false;
 	},
 	onEnd: function( options ) {}
 });

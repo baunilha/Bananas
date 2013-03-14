@@ -362,7 +362,23 @@ background: #111 url(http://upload.wikimedia.org/wikipedia/commons/4/4c/Bananas.
 
 /**** audio navigation ****/
 
-#navbar {
+#navbar1 {
+position: relative;
+bottom: -60px;
+z-index: 150;
+height: 40px;
+margin-left: 30px;
+} 
+
+#navbar2 {
+position: relative;
+bottom: -60px;
+z-index: 150;
+height: 40px;
+margin-left: 30px;
+} 
+
+#navbar3 {
 position: relative;
 bottom: -60px;
 z-index: 150;

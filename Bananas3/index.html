@@ -67,7 +67,7 @@
 					$(this).jPlayer("pause");
 				},
 				swfPath: "js",
-				supplied: "oga, mp3",
+				supplied: "mp3",
 				//errorAlerts:true
 			});
 
@@ -86,7 +86,7 @@
 					$(this).jPlayer("pause");
 				},
 				swfPath: "js",
-				supplied: "oga, mp3",
+				supplied: "mp3",
 				//errorAlerts:true
 			});
 
@@ -119,9 +119,9 @@
 				return false;
 			});
 			
-
-			//chapter 1 audio function
-			$('#discovery').click(function() {
+			
+			//navbar chapter 1 audio function
+			$('#popculture1').click(function() {
 				$.smoothScroll({
 					scrollTarget: '#chapter1',
 					afterScroll: function() {$("#pop-audio").jPlayer("play", 0);}
@@ -129,9 +129,7 @@
 				return false;
 			});
 
-
-			//chapter 2 audio function
-			$('#witness').click(function() {
+			$('#facts1').click(function() {
 				$.smoothScroll({
 					speed: 800,
 					scrollTarget: '#chapter2',
@@ -140,11 +138,66 @@
 				return false;
 			});
 
-
-			//chapter 3 audio function
-			$("#obsessive").click(function() {
+			$('#hist1').click(function() {
   				$.smoothScroll({
 					speed: 800,
+					scrollTarget: '#chapter3',
+					afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
+				});
+				return false;
+			});
+
+
+			//navbar chapter 2 audio function
+			$('#popculture2').click(function() {
+				$.smoothScroll({
+					speed: 800,
+					scrollTarget: '#chapter1',
+					afterScroll: function() {$("#pop-audio").jPlayer("play", 0);}
+				});
+				return false;
+			});
+
+			$('#facts2').click(function() {
+				$.smoothScroll({
+					scrollTarget: '#chapter2',
+					afterScroll: function() {$("#fact-audio").jPlayer("play", 0);}
+				});
+				return false;
+			});
+
+			$('#hist2').click(function() {
+  				$.smoothScroll({
+					speed: 800,
+					scrollTarget: '#chapter3',
+					afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
+				});
+				return false;
+			});
+
+
+			//navbar chapter 3 audio function
+			$('#popculture3').click(function() {
+				$.smoothScroll({
+					speed: 800,
+					//direction: 'up',
+					scrollTarget: '#chapter1',
+					afterScroll: function() {$("#pop-audio").jPlayer("play", 0);}
+				});
+				return false;
+			});
+
+			$('#facts3').click(function() {
+				$.smoothScroll({
+					speed: 800,
+					scrollTarget: '#chapter2',
+					afterScroll: function() {$("#fact-audio").jPlayer("play", 0);}
+				});
+				return false;
+			});
+
+			$("#hist").click(function() {
+  				$.smoothScroll({
 					scrollTarget: '#chapter3',
 					afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
 				});
@@ -245,7 +298,7 @@
 	</div><!--/intro-inner-->
 </div>
 
-<div id="navbar">
+<div id="navbar1">
 	<!--<p id="home"><a href="#global-header">Home</a></p>-->
 
 	<div id="audio">
@@ -285,9 +338,9 @@
 	</div> <!--/audio -->
 	
 	<ul id="chapter-nav">
-		<li><div id="disco"><a id="discovery" href="#c1">POP-CULTURE</a></div></li>
-		<li><div id="wit"><a id="witness" href="#c2">FACTS!</a></div></li>
-		<li><div id="ob"><a id="obsessive" href="#c3">NO BANANAS?</a></div></li>
+		<li><div id="disco"><a id="popculture1" href="#c1">POP-CULTURE</a></div></li>
+		<li><div id="wit"><a id="facts1" href="#c2">FACTS!</a></div></li>
+		<li><div id="ob"><a id="hist1" href="#c3">NO BANANAS?</a></div></li>
 <!-- 		<li><div id="myth"><a id="mythic" href="#c4"></a></div></li>
  -->	</ul>
 
@@ -320,7 +373,7 @@
 
 
 <!-- /chapter2 -->
-<div id="navbar">
+<div id="navbar2">
 	<!--<p id="home"><a href="#global-header">Home</a></p>-->
 
 	<div id="audio">
@@ -360,9 +413,9 @@
 	</div> <!--/audio -->
 	
 	<ul id="chapter-nav">
-		<li><div id="disco"><a id="discovery" href="#c1">POP-CULTURE</a></div></li>
-		<li><div id="wit"><a id="witness" href="#c2">FACTS!</a></div></li>
-		<li><div id="ob"><a id="obsessive" href="#c3">NO BANANAS?</a></div></li>
+		<li><div id="disco"><a id="popculture2" href="#c1">POP-CULTURE</a></div></li>
+		<li><div id="wit"><a id="facts2" href="#c2">FACTS!</a></div></li>
+		<li><div id="ob"><a id="hist2" href="#c3">NO BANANAS?</a></div></li>
 	</ul>
 
 	</div> <!--/navbar -->
@@ -613,7 +666,7 @@
 
 
 <!-- /chapter3 -->
-<div id="navbar">
+<div id="navbar3">
 	<!--<p id="home"><a href="#global-header">Home</a></p>-->
 
 	<div id="audio">
@@ -653,9 +706,9 @@
 	</div> <!--/audio -->
 	
 	<ul id="chapter-nav">
-		<li><div id="disco"><a id="discovery" href="#c1">POP-CULTURE</a></div></li>
-		<li><div id="wit"><a id="witness" href="#c2">FACTS!</a></div></li>
-		<li><div id="ob"><a id="obsessive" href="#c3">NO BANANAS?</a></div></li>
+		<li><div id="disco"><a id="popculture3" href="#c1">POP-CULTURE</a></div></li>
+		<li><div id="wit"><a id="facts3" href="#c2">FACTS!</a></div></li>
+		<li><div id="ob"><a id="hist3" href="#c3">NO BANANAS?</a></div></li>
 	</ul>
 
 	</div> <!--/navbar -->

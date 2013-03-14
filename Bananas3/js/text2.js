@@ -645,6 +645,27 @@ fac.code({
 	onEnd: function( options ) {}
 });
 
+/////////////// ! going to hanna chapter
+
+fac.code({
+	start: 158,
+	end: 160,
+	onStart: function( options ) {    
+		$.smoothScroll({
+			speed: 800,
+			scrollTarget: '#chapter3',
+			afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
+			});
+			var pauseAll = document.getElementsByTagName('video');
+			for(var i = 0; i < pauseAll.length; i++){
+			   pauseAll[i].pause();
+			   pauseAll[i].load();
+		};
+		return false;
+	},
+	onEnd: function( options ) {}
+});
+
 /////////////// end     
 },false);
 

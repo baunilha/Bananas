@@ -57,7 +57,8 @@
 			$("#fact-audio").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						mp3: "assets/audio/audio_bruna.mp3"
+						mp3: "assets/audio/audio_bruna.mp3",
+						oga: "assets/audio/audio_bruna.ogg"
 					}).jPlayer("pause");
 				},
 				play: function() { // To avoid both jPlayers playing together.
@@ -67,7 +68,7 @@
 					$(this).jPlayer("pause");
 				},
 				swfPath: "js",
-				supplied: "mp3",
+				supplied: "oga, mp3",
 				//errorAlerts:true
 			});
 
@@ -76,7 +77,7 @@
 			$("#hist-audio").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						mp3: "assets/audio/Bananas3.mp3"
+						mp3: "assets/audio/Bananas3.mp3",
 						oga: "assets/audio/Bananas3.ogg"
 					}).jPlayer("pause");
 				},
@@ -87,7 +88,7 @@
 					$(this).jPlayer("pause");
 				},
 				swfPath: "js",
-				supplied: "mp3",
+				supplied: "oga, mp3",
 				//errorAlerts:true
 			});
 
@@ -720,6 +721,7 @@
 		<div id="c3-intro" >
 			<h2>The Banana</h2>
 			<h4>AS WE KNOW IT</h4>
+			<h4>Is this Goodbye?</h4>
 		</div> <!-- /.card -->
 
 		<div id="3photo1" class="card">

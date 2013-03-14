@@ -142,6 +142,21 @@ hist.code({
 
 hist.code({
 	start: 100,
+	end: 105,
+	onStart: function( options ) {         
+		$.smoothScroll({
+			direction: 'left',
+			scrollElement: $('#chapter3'),
+			scrollTarget: '#c4-intro'
+		});
+		return false;
+	},
+	onEnd: function( options ) {}
+});
+
+
+hist.code({
+	start: 105,
 	end: 120,
 	onStart: function( options ) {         
 		$.smoothScroll({
@@ -842,19 +857,7 @@ applyclass: 'active'
 // applyclass: 'active'
 // });
 
-// hist.code({
-// 	start: 243,
-// 	end: 243.5,
-// 	onStart: function( options ) {         
-// 		$.smoothScroll({
-// 			direction: 'left',
-// 			scrollElement: $('#chapter3'),
-// 			scrollTarget: '#c4-intro'
-// 		});
-// 		return false;
-// 	},
-// 	onEnd: function( options ) {}
-// });
+
 
 // /////////////// !photo 52
 

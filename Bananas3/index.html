@@ -88,15 +88,8 @@
 				ended: function (event) {
 					$(this).jPlayer("pause");
 				},
-				swfPath: "js",
-<<<<<<< HEAD
 				supplied: "mp3",
 				//errorAlerts:true
-=======
-				supplied: "oga, mp3",
-
-
->>>>>>> 964c25ddd35b91c8d6131918f9f604e1ee746005
 			});
 
 			
@@ -139,8 +132,12 @@
 				$.smoothScroll({
 					speed: 800,
 					scrollTarget: '#chapter2',
-					afterScroll: function() {$('#fact-audio').jPlayer("play", 0);}
-				});
+					afterScroll: function() {$('#fact-audio').jPlayer("play", 0)};
+				var pauseAll = document.getElementsByTagName('video');
+				for(var i = 0; i < pauseAll.length; i++){
+				   pauseAll[i].pause();
+				   pauseAll[i].load();
+				};
 				return false;
 			});
 
@@ -148,8 +145,12 @@
   				$.smoothScroll({
 					speed: 800,
 					scrollTarget: '#chapter3',
-					afterScroll: function() {$('#hist-audio').jPlayer("play", 0);}
-				});
+					afterScroll: function() {$('#hist-audio').jPlayer("play", 0)};
+				var pauseAll = document.getElementsByTagName('video');
+				for(var i = 0; i < pauseAll.length; i++){
+				   pauseAll[i].pause();
+				   pauseAll[i].load();
+				};
 				return false;
 			});
 
@@ -159,34 +160,34 @@
 				$.smoothScroll({
 					speed: 800,
 					scrollTarget: '#chapter1',
-					afterScroll: function() {$('#pop-audio').jPlayer("play", 0);}
+					afterScroll: function() {$('#pop-audio').jPlayer("play", 0)};
 				});
 				return false;
 			});
 
 			$('#facts2').click(function() {
-<<<<<<< HEAD
 				$.smoothScroll({
 					scrollTarget: '#chapter2',
-					afterScroll: function() {$("#fact-audio").jPlayer("play", 0);}
-				});
-=======
-				$('#fact-audio').jPlayer("play", 0);
-				var pauseAll = document.getElementsByTagName('video');
+					afterScroll: function() {$("#fact-audio").jPlayer("play", 0)};
+					var pauseAll = document.getElementsByTagName('video');
 				for(var i = 0; i < pauseAll.length; i++){
 				   pauseAll[i].pause();
 				   pauseAll[i].load();
 				};
->>>>>>> 72e3f0372416fa8be7c194e2432077e1d68b5562
 				return false;
-			});
+				});
+
 
 			$('#hist2').click(function() {
   				$.smoothScroll({
 					speed: 800,
 					scrollTarget: '#chapter3',
-					afterScroll: function() {$('#hist-audio').jPlayer("play", 0);}
-				});
+					afterScroll: function() {$('#hist-audio').jPlayer("play", 0)};
+				var pauseAll = document.getElementsByTagName('video');
+				for(var i = 0; i < pauseAll.length; i++){
+				   pauseAll[i].pause();
+				   pauseAll[i].load();
+				};
 				return false;
 			});
 
@@ -197,7 +198,7 @@
 					speed: 800,
 					//direction: 'up',
 					scrollTarget: '#chapter1',
-					afterScroll: function() {$('#pop-audio').jPlayer("play", 0);}
+					afterScroll: function() {$('#pop-audio').jPlayer("play", 0)};
 				});
 				return false;
 			});
@@ -206,18 +207,15 @@
 				$.smoothScroll({
 					speed: 800,
 					scrollTarget: '#chapter2',
-					afterScroll: function() {$('#fact-audio').jPlayer("play", 0);}
-				});
+					afterScroll: function() {$('#fact-audio').jPlayer("play", 0)};
+				var pauseAll = document.getElementsByTagName('video');
+				for(var i = 0; i < pauseAll.length; i++){
+				   pauseAll[i].pause();
+				   pauseAll[i].load();
+				};
 				return false;
 			});
 
-<<<<<<< HEAD
-			$("#hist").click(function() {
-  				$.smoothScroll({
-					scrollTarget: '#chapter3',
-					afterScroll: function() {$("#hist-audio").jPlayer("play", 0);}
-				});
-=======
 			$('#hist3').click(function() {
   				$('#hist-audio').jPlayer("play", 0);
 				var pauseAll = document.getElementsByTagName('video');
@@ -225,7 +223,6 @@
 				   pauseAll[i].pause();
 				   pauseAll[i].load();
 				};
->>>>>>> 72e3f0372416fa8be7c194e2432077e1d68b5562
 				return false;
 			});
 

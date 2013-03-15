@@ -6,8 +6,7 @@ function videoChangeH(id) {
 
 	var videoNew = document.getElementById(id);
 	videoNew.play();
-	videoNewT.muted=false;
-	videoNewT.volume=0.6;
+	videoNewT.muted=true;
 };
 
 document.addEventListener('DOMContentLoaded',function(e){
